@@ -1,0 +1,6 @@
+import axios from "axios";//im
+
+export const axiosInstance=axios.create({
+    baseURL:"http://localhost:5001/api/",
+    withCredentials:true,//to send cookies with requests
+});
